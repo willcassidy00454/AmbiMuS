@@ -41,13 +41,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-180",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 402.727258324623108, 164.545448660850525, 331.0, 74.0 ],
-					"presentation_linecount" : 5,
-					"text" : "Needs adding:\n- page counter/progress bar\n- change 'next' to 'finish' on last page\n- make audio playback continuous when changing file\n- add crossfading to playback on file change"
+					"patching_rect" : [ 402.727258324623108, 164.545448660850525, 331.0, 60.0 ],
+					"presentation_linecount" : 4,
+					"text" : "Needs adding:\n- page counter/progress bar\n- change 'next' to 'finish' on last page\n- add crossfading to playback on file change"
 				}
 
 			}
