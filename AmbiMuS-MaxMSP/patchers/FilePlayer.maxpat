@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 817.0, 359.0, 640.0, 480.0 ],
+		"rect" : [ 498.0, 298.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,8 +82,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 88.0, 185.0, 22.0 ],
-					"text" : "sprintf set open \\\"../../Stimuli/%s\\\""
+					"patching_rect" : [ 235.0, 88.0, 165.0, 22.0 ],
+					"text" : "sprintf set open \\\"Stimuli/%s\\\""
 				}
 
 			}
@@ -187,13 +187,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 134.0, 161.0, 62.0 ],
-					"text" : "open \"../../Stimuli/Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 2 Routing 6.wav\""
+					"patching_rect" : [ 235.0, 134.0, 168.0, 22.0 ],
+					"text" : "open Stimuli/example.wav"
 				}
 
 			}

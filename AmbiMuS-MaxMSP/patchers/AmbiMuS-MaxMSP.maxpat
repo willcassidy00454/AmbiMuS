@@ -40,11 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 44.0, 20.909090161323547, 336.363624334335327, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Note: the \"Stimuli\" folder needs adding to the project filepaths"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 387.272713422775269, 1160.545455813407898, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 387.272713422775269, 1128.727275133132935, 101.0, 22.0 ],
+					"text" : "r load_next_page"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-175",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.909076571464539, 1142.727231860160828, 70.909088373184204, 20.0 ],
+					"patching_rect" : [ 419.999984979629517, 1196.0, 70.909088373184204, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 527.272708415985107, 614.545432567596436, 70.909088373184204, 20.0 ],
 					"text" : "Play/pause"
@@ -157,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.363620758056641, 1172.727230787277222, 24.0, 24.0 ],
+					"patching_rect" : [ 387.272713422775269, 1194.181818246841431, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 535.454526305198669, 642.72724974155426, 54.54545259475708, 54.54545259475708 ]
 				}
@@ -325,7 +361,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1143.636322736740112, 1106.363596796989441, 82.0, 22.0 ],
+					"patching_rect" : [ 1138.181777477264404, 1106.363596796989441, 82.0, 22.0 ],
 					"text" : "andgate7way"
 				}
 
@@ -409,7 +445,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.454510927200317, 1047.272689819335938, 29.5, 22.0 ],
+					"patching_rect" : [ 965.454510927200317, 1042.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -421,7 +457,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.454510927200317, 1007.272691249847412, 101.0, 22.0 ],
+					"patching_rect" : [ 965.454510927200317, 1007.0, 101.0, 22.0 ],
 					"text" : "r load_next_page"
 				}
 
@@ -458,17 +494,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 619.5, 687.0, 79.0, 22.0 ],
 					"text" : "r reset_patch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 1090.0, 105.0, 22.0 ],
-					"text" : "s results_filename"
 				}
 
 			}
@@ -778,6 +803,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"id" : "obj-18",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -836,7 +862,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 621.0, 1074.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 2 Routing 6.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 5.wav\""
 				}
 
 			}
@@ -849,7 +875,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 599.0, 1042.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 1 Routing 1.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 6.wav\""
 				}
 
 			}
@@ -862,7 +888,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 578.0, 1007.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 1 Filter 1 Routing 1.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 5.wav\""
 				}
 
 			}
@@ -875,7 +901,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 556.0, 969.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 2 Filter 1 Routing 1.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 2 Routing 6.wav\""
 				}
 
 			}
@@ -888,7 +914,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 534.0, 938.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 5.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 1 Routing 1.wav\""
 				}
 
 			}
@@ -901,7 +927,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 513.0, 904.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 6.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 2 Filter 1 Routing 1.wav\""
 				}
 
 			}
@@ -955,13 +981,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 10,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 868.0, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 1 Routing 1.wav\""
+					"patching_rect" : [ 491.0, 868.0, 54.0, 35.0 ],
+					"text" : "example.wav"
 				}
 
 			}
@@ -1072,7 +1098,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 171.0, 920.0, 50.0, 143.0 ],
-					"text" : "/Users/willcassidy/Development/GitHub/AmbiMuS/Results/472088.csv"
+					"text" : "/Users/willcassidy/Development/GitHub/AmbiMuS/Results/508353.csv"
 				}
 
 			}
@@ -1237,12 +1263,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 15,
+					"linecount" : 14,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 52.0, 331.0, 208.0 ],
-					"text" : "1. Load stimulus filenames\n2. Duplicate into two lists\n3. Randomise order of each list\n4. Concatenate lists (so repeats only start after all of the first batch have been judged)\n5. On 'start' click, write results file with random ID (check it doesn't already exist in folder)\n6. Load first [seven] filenames in list into the UI\n7. When slider is being changed, play that audio file\n7. Once all sliders changed, enable 'next' button\n8. On 'next' click, append the [seven] filenames in column 1 and their respective ratings in column 2 of the results file. Pause playback, disable 'next' button, load next [seven] filenames for the sliders, reset click counter for slider changes."
+					"patching_rect" : [ 44.0, 52.0, 331.0, 194.0 ],
+					"text" : "1. Load stimulus filenames\n2. Duplicate into two lists\n3. Randomise order of each list\n4. Concatenate lists (so repeats only start after all of the first batch have been judged)\n5. On 'start' click, write results file with random ID (check it doesn't already exist in folder)\n6. Load first [seven] filenames in list into the UI\n7. When slider is being changed, play that audio file\n7. Once all sliders changed, enable 'next' button\n8. On 'next' click, append the [seven] filenames in column 1 and their respective ratings in column 2 of the results file. Pause playback, disable 'next' button, load next [seven] filenames for the sliders, reset slider changed flags."
 				}
 
 			}
@@ -1295,7 +1321,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
-					"midpoints" : [ 1153.136322736740112, 1140.272689819335938, 1517.454510927200317, 1140.272689819335938, 1517.454510927200317, 924.272689819335938, 1562.227217197418213, 924.272689819335938 ],
+					"midpoints" : [ 1147.681777477264404, 1140.272689819335938, 1517.454510927200317, 1140.272689819335938, 1517.454510927200317, 924.272689819335938, 1562.227217197418213, 924.272689819335938 ],
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -1554,6 +1580,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-155", 0 ],
 					"order" : 1,
 					"source" : [ "obj-18", 0 ]
@@ -1572,13 +1612,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
