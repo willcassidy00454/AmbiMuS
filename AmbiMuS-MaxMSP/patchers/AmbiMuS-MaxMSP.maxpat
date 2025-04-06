@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 106.0, 1260.0, 905.0 ],
+		"rect" : [ 34.0, 106.0, 803.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-182",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 450.727271199226379, 1184.0, 147.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "This assumes all stimuli have the same duration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-181",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 527.5, 1133.0, 79.0, 22.0 ],
+					"text" : "r reset_patch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-180",
 					"linecount" : 4,
@@ -216,9 +241,9 @@
 				"box" : 				{
 					"id" : "obj-161",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.863635063171387, 1144.863595366477966, 57.0, 22.0 ],
+					"patching_rect" : [ 489.5, 1159.999958515167236, 57.0, 22.0 ],
 					"text" : "fileplayer"
 				}
 
@@ -732,7 +757,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"id" : "obj-18",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -1522,6 +1546,13 @@
 					"destination" : [ "obj-26", 0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-161", 2 ],
+					"source" : [ "obj-181", 0 ]
 				}
 
 			}
