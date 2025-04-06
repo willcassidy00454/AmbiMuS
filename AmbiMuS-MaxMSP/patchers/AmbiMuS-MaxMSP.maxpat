@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-257",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1020.5, 942.0, 80.0, 74.0 ],
+					"text" : "[t b b]:\n1. Get stimuli and ratings\n2. Append to results file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-255",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 650.909090161323547, 121.818177461624146, 47.0 ],
+					"presentation_linecount" : 3,
+					"text" : "+ 1 to avoid not registering a 0 as a slider change",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-254",
@@ -63,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1264.0, 464.0, 134.0, 42.0 ],
+					"patching_rect" : [ 1310.0, 464.0, 88.0, 42.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Progress\nBar",
 					"textjustification" : 2
@@ -110,9 +136,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1157.0, 103.909090161323547, 177.0, 42.0 ],
+					"patching_rect" : [ 1075.75, 103.909090161323547, 258.0, 42.0 ],
 					"presentation_linecount" : 4,
-					"text" : "Generate Stimulus Presentation Order",
+					"text" : "Load Stimuli and\nGenerate Presentation Order",
 					"textjustification" : 2
 				}
 
@@ -126,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 470.0, 79.0, 42.0 ],
+					"patching_rect" : [ 56.0, 470.0, 79.0, 42.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Rating\nSliders",
 					"textjustification" : 0
@@ -190,7 +216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1042.0, 571.909090161323547, 104.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 566.0, 104.0, 22.0 ],
 					"text" : "expr ($f1 - 1) / $f2"
 				}
 
@@ -202,7 +228,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1207.0, 469.909090161323547, 79.0, 22.0 ],
+					"patching_rect" : [ 1206.0, 464.0, 79.0, 22.0 ],
 					"text" : "r reset_patch"
 				}
 
@@ -214,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1207.0, 499.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 1206.0, 494.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -262,7 +288,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1042.0, 647.909090161323547, 37.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 642.0, 37.0, 22.0 ],
 					"text" : "sel 1."
 				}
 
@@ -273,7 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1229.0, 617.909090161323547, 57.636362433433533, 20.0 ],
+					"patching_rect" : [ 1228.0, 612.0, 57.636362433433533, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.909071385860443, 735.272700905799866, 57.636362433433533, 20.0 ],
 					"text" : "Progress"
@@ -285,12 +311,13 @@
 					"floatoutput" : 1,
 					"id" : "obj-204",
 					"ignoreclick" : 1,
+					"knobshape" : 4,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1042.0, 619.909090161323547, 182.727266192436218, 16.363635778427124 ],
+					"patching_rect" : [ 1041.0, 614.0, 182.727266192436218, 16.363635778427124 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.545447587966919, 757.272700905799866, 750.818162083625793, 16.363635778427124 ],
 					"size" : 1.0,
@@ -306,7 +333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1042.0, 498.909090161323547, 101.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 493.0, 101.0, 22.0 ],
 					"text" : "r load_next_page"
 				}
 
@@ -318,7 +345,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 1042.0, 536.909090161323547, 61.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 531.0, 61.0, 22.0 ],
 					"text" : "counter"
 				}
 
@@ -330,7 +357,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1126.0, 536.909090161323547, 79.0, 22.0 ],
+					"patching_rect" : [ 1125.0, 531.0, 79.0, 22.0 ],
 					"text" : "r num_pages"
 				}
 
@@ -705,7 +732,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 162.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 162.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -717,7 +744,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 196.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 196.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -729,7 +756,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 229.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 229.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -741,7 +768,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 260.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 260.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -753,7 +780,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 291.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 291.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -765,7 +792,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 321.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 321.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -777,7 +804,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 351.0, 633.909090161323547, 29.5, 22.0 ],
+					"patching_rect" : [ 351.0, 663.909090161323547, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -1193,7 +1220,7 @@
 					"patching_rect" : [ 1101.0, 852.0, 87.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.363609671592712, 642.72724974155426, 199.0, 54.0 ],
-					"text" : "Finish",
+					"text" : "Next",
 					"texton" : "Next"
 				}
 
@@ -1250,13 +1277,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"linecount" : 12,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 657.0, 854.909090161323547, 54.0, 169.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 1 Routing 1 copy.wav\""
+					"patching_rect" : [ 657.0, 854.909090161323547, 54.0, 143.0 ],
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 6.wav\""
 				}
 
 			}
@@ -1269,33 +1296,33 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 636.0, 816.909090161323547, 54.0, 143.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 5.wav\""
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 6.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 2,
+					"linecount" : 12,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 785.909090161323547, 54.0, 35.0 ],
-					"text" : "example.wav"
+					"patching_rect" : [ 613.0, 785.909090161323547, 54.0, 169.0 ],
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 2 Routing 6 copy.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"linecount" : 12,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.0, 751.909090161323547, 54.0, 169.0 ],
-					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 2 Routing 6 copy.wav\""
+					"patching_rect" : [ 592.0, 751.909090161323547, 54.0, 143.0 ],
+					"text" : "\"Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 1 Routing 1.wav\""
 				}
 
 			}
@@ -2118,7 +2145,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-213", 0 ],
-					"midpoints" : [ 1051.5, 651.500011265277863, 1050.5, 651.500011265277863 ],
 					"source" : [ "obj-207", 0 ]
 				}
 
@@ -2149,7 +2175,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-198", 3 ],
-					"midpoints" : [ 1216.5, 529.63639497756958, 1083.0, 529.63639497756958 ],
+					"midpoints" : [ 1215.5, 523.727304816246033, 1082.0, 523.727304816246033 ],
 					"order" : 0,
 					"source" : [ "obj-226", 0 ]
 				}
@@ -2158,7 +2184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-204", 0 ],
-					"midpoints" : [ 1216.5, 605.863653481006622, 1051.5, 605.863653481006622 ],
+					"midpoints" : [ 1215.5, 599.954563319683075, 1050.5, 599.954563319683075 ],
 					"order" : 1,
 					"source" : [ "obj-226", 0 ]
 				}
