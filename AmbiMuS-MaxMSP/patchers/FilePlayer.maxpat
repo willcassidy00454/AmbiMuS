@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 887.0, 214.0, 859.0, 679.0 ],
+		"rect" : [ 276.0, -904.0, 859.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 420.5, 64.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Once faded out"
 				}
 
@@ -117,7 +116,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 273.0, 64.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Fade out\n(5 ms)"
 				}
 
@@ -273,8 +271,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.0, 296.0, 50.0, 35.0 ],
-					"text" : "seek 1498"
+					"patching_rect" : [ 634.0, 296.0, 42.0, 35.0 ],
+					"text" : "seek 32"
 				}
 
 			}
@@ -358,7 +356,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.0, 242.5, 134.0, 33.0 ],
-					"presentation_linecount" : 7,
 					"text" : "Only trigger open if the requested file is new"
 				}
 
@@ -371,7 +368,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 119.0, 52.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Current input"
 				}
 
@@ -383,8 +379,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 136.0, 51.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 270.0, 136.0, 52.0, 33.0 ],
 					"text" : "Current input"
 				}
 
@@ -392,14 +387,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-42",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 119.0, 53.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : "example.wav"
+					"patching_rect" : [ 66.0, 119.0, 37.0, 102.0 ],
+					"text" : "\"Programme Item 2/a copy.wav\""
 				}
 
 			}
@@ -418,13 +412,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 135.0, 50.0, 35.0 ],
-					"text" : "example.wav"
+					"patching_rect" : [ 216.0, 135.0, 38.0, 102.0 ],
+					"text" : "\"Programme Item 2/a copy.wav\""
 				}
 
 			}
@@ -443,14 +437,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-37",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 180.0, 62.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : "example.wav"
+					"patching_rect" : [ 173.0, 180.0, 38.0, 102.0 ],
+					"text" : "\"Programme Item 2/a copy.wav\""
 				}
 
 			}
@@ -475,7 +468,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 181.0, 57.0, 33.0 ],
+					"patching_rect" : [ 236.0, 181.0, 59.0, 33.0 ],
 					"text" : "Previous input"
 				}
 
@@ -592,12 +585,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 125.5, 168.0, 22.0 ],
-					"text" : "open Stimuli/example.wav"
+					"patching_rect" : [ 389.0, 125.5, 168.0, 35.0 ],
+					"text" : "open \"Stimuli/Programme Item 2/a copy.wav\""
 				}
 
 			}
@@ -738,7 +732,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
-					"midpoints" : [ 398.5, 52.0, 256.5, 52.0 ],
+					"midpoints" : [ 398.5, 52.0, 244.5, 52.0 ],
 					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -756,7 +750,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 1 ],
-					"midpoints" : [ 398.5, 52.0, 109.5, 52.0 ],
+					"midpoints" : [ 398.5, 52.0, 93.5, 52.0 ],
 					"order" : 2,
 					"source" : [ "obj-10", 0 ]
 				}
