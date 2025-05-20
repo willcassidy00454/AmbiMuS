@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1259.0, 911.0 ],
+		"rect" : [ 34.0, 100.0, 1487.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,77 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-33",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 135.0, 120.0, 87.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 634.5, 1073.0, 199.0, 54.0 ],
+					"rounded" : 10.0,
+					"text" : "Reset Patch",
+					"texton" : "Reset Patch",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 30.0,
+					"id" : "obj-178",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -275.0, 201.5, 270.0, 107.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 375.0, 182.0, 726.0, 40.0 ],
+					"text" : "Acoustic Unpleasantness Listening Test",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-48",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 62.0, 279.0, 87.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 637.0, 616.0, 198.0, 54.0 ],
+					"rounded" : 10.0,
+					"text" : "Start",
+					"texton" : "Start",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.873261690139771, 0.873261690139771, 0.873261630535126, 1.0 ],
+					"id" : "obj-174",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 62.0, 401.5, 60.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -18.523807220160961, 1.0, 1701.0, 1128.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -62,7 +133,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1176.0, 1163.0, 181.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.0, 395.166690267622471, 664.0, 40.0 ],
+					"presentation_rect" : [ 403.976192779839039, 362.0, 664.0, 40.0 ],
 					"text" : "Thank you for participating!",
 					"textjustification" : 1
 				}
@@ -71,7 +142,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+					"bgcolor" : [ 0.873261690139771, 0.873261690139771, 0.873261630535126, 1.0 ],
 					"hidden" : 1,
 					"id" : "obj-6",
 					"maxclass" : "panel",
@@ -80,32 +151,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1033.0, 1255.409090161323547, 60.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -31.0, -71.833309732377529, 1551.0, 1042.0 ],
+					"presentation_rect" : [ -18.523807220160961, -5.0, 1736.0, 1042.0 ],
 					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-119",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1563.926136538386345, 593.0, 50.0, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-117",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1423.0, 685.0, 50.0, 22.0 ],
-					"text" : "3"
 				}
 
 			}
@@ -369,25 +416,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
-					"id" : "obj-33",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 120.0, 87.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 634.5, 1073.0, 199.0, 54.0 ],
-					"rounded" : 10.0,
-					"text" : "Reset Patch",
-					"texton" : "Reset Patch",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-85",
 					"maxclass" : "comment",
@@ -542,58 +570,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.227263867855072, 994.0, 29.5, 22.0 ],
 					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 30.0,
-					"id" : "obj-178",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -275.0, 201.5, 270.0, 107.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1806.0, 113.0, 726.0, 40.0 ],
-					"text" : "Acoustic Unpleasantness Listening Test",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 20.0,
-					"id" : "obj-48",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 279.0, 87.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2068.0, 547.0, 198.0, 54.0 ],
-					"rounded" : 10.0,
-					"text" : "Start",
-					"texton" : "Start",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.870588235294118, 0.870588235294118, 0.870588235294118, 1.0 ],
-					"id" : "obj-174",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 401.5, 60.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1460.0, -70.0, 1551.0, 1042.0 ],
-					"proportion" : 0.5
 				}
 
 			}
@@ -1284,7 +1260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1777.0, 298.0, 93.0, 127.0 ],
+					"patching_rect" : [ 1632.0, 298.0, 93.0, 127.0 ],
 					"text" : "This section needs to be here (on the right) to ensure these vars are updated before the Load Stimuli section on reset_patch"
 				}
 
@@ -1471,7 +1447,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1571.0, 298.0, 188.0, 24.0 ],
+					"patching_rect" : [ 1426.0, 298.0, 188.0, 24.0 ],
 					"text" : "Num Stimuli and Pages"
 				}
 
@@ -1717,7 +1693,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1432.0, 399.0, 81.0, 22.0 ],
+					"patching_rect" : [ 1287.0, 399.0, 81.0, 22.0 ],
 					"text" : "s num_pages"
 				}
 
@@ -1729,7 +1705,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1443.0, 334.0, 107.0, 22.0 ],
+					"patching_rect" : [ 1298.0, 334.0, 107.0, 22.0 ],
 					"text" : "r stimuli_per_page"
 				}
 
@@ -1741,7 +1717,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1432.0, 304.0, 109.0, 22.0 ],
+					"patching_rect" : [ 1287.0, 304.0, 109.0, 22.0 ],
 					"text" : "r total_num_stimuli"
 				}
 
@@ -1753,7 +1729,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1432.0, 367.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1287.0, 367.0, 29.5, 22.0 ],
 					"text" : "/"
 				}
 
@@ -1765,7 +1741,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1675.0, 328.0, 89.0, 100.0 ],
+					"patching_rect" : [ 1530.0, 328.0, 89.0, 100.0 ],
 					"text" : "This is fairly hard-coded; if you want to change this number, a few areas need to be updated"
 				}
 
@@ -1776,7 +1752,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1559.0, 402.0, 109.0, 22.0 ],
+					"patching_rect" : [ 1414.0, 402.0, 109.0, 22.0 ],
 					"text" : "s stimuli_per_page"
 				}
 
@@ -1788,7 +1764,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1559.0, 367.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1414.0, 367.0, 29.5, 22.0 ],
 					"text" : "7"
 				}
 
@@ -1800,7 +1776,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1559.0, 334.0, 79.0, 22.0 ],
+					"patching_rect" : [ 1414.0, 334.0, 79.0, 22.0 ],
 					"text" : "r reset_patch"
 				}
 
@@ -1847,7 +1823,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1421.0, 8.0, 425.0, 33.0 ],
+					"patching_rect" : [ 1276.0, 8.0, 425.0, 33.0 ],
 					"text" : "Note: the \"Stimuli\" folder needs adding to the project filepaths with subfolders, and the filepaths in Load Stimuli are absolute and hard-coded"
 				}
 
@@ -2332,78 +2308,78 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 13,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 921.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 7.wav\""
+					"patching_rect" : [ 700.0, 921.909090161323547, 55.0, 49.0 ],
+					"text" : "Familiarisation/famil.wav"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.0, 889.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 1 Filter 3 Routing 8.wav\""
+					"patching_rect" : [ 678.0, 889.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 657.0, 854.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 1 Filter 3 Routing 6.wav\""
+					"patching_rect" : [ 657.0, 854.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy 6.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-53",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 636.0, 816.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 6.wav\""
+					"patching_rect" : [ 636.0, 816.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy 5.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 785.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 1 Filter 3 Routing 7.wav\""
+					"patching_rect" : [ 613.0, 785.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy 4.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.0, 751.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 5.wav\""
+					"patching_rect" : [ 592.0, 751.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy 3.wav\""
 				}
 
 			}
@@ -2457,13 +2433,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 13,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 715.909090161323547, 55.0, 183.0 ],
-					"text" : "\"Programme Item 1/Prog Item 1 Room 1 Absorption 1 RT 1 Loop Gain 1 Filter 3 Routing 5.wav\""
+					"patching_rect" : [ 570.0, 715.909090161323547, 55.0, 76.0 ],
+					"text" : "\"Familiarisation/famil copy 2.wav\""
 				}
 
 			}
@@ -2628,7 +2604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1421.0, 49.0, 335.85227307677269, 234.0 ],
+					"patching_rect" : [ 1276.0, 49.0, 335.85227307677269, 234.0 ],
 					"text" : "Execution\n\n1. Load stimulus filenames of two folders of programme items\n2. Duplicate each folder into two lists\n3. Randomise order of each list\n4. Interleave programme items so pages alternate\n4. Concatenate lists (so repeats only start after all of the first batch have been judged)\n5. On 'start' click, write results file with random ID (check it doesn't already exist in folder)\n6. Load first [seven] filenames in list into the UI\n7. When slider is being changed, play that audio file\n7. Once all sliders changed, enable 'next' button\n8. On 'next' click, append the [seven] filenames in column 1 and their respective ratings in column 2 of the results file. Pause playback, disable 'next' button, load next [seven] filenames for the sliders, reset slider changed flags."
 				}
 
@@ -2868,7 +2844,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.318187832832336, 86.5, 971.681812167167664, 352.0 ],
+					"patching_rect" : [ 436.318187832832336, 87.5, 817.681812167167664, 351.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2898,7 +2874,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1414.0, 286.0, 354.778409615159035, 150.0 ],
+					"patching_rect" : [ 1269.0, 286.0, 354.778409615159035, 150.0 ],
 					"proportion" : 0.5
 				}
 
@@ -3538,32 +3514,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 1 ],
-					"order" : 0,
-					"source" : [ "obj-197", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-234", 1 ],
-					"order" : 1,
 					"source" : [ "obj-197", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-119", 1 ],
-					"order" : 0,
-					"source" : [ "obj-198", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
-					"order" : 1,
 					"source" : [ "obj-198", 0 ]
 				}
 
