@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1443.0, 911.0 ],
+		"rect" : [ 34.0, 100.0, 1660.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -452,7 +452,6 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 30.0,
-					"hidden" : 1,
 					"id" : "obj-178",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -469,7 +468,6 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 20.0,
-					"hidden" : 1,
 					"id" : "obj-48",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -490,7 +488,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.870588235294118, 0.870588235294118, 0.870588235294118, 1.0 ],
-					"hidden" : 1,
 					"id" : "obj-174",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2262,78 +2259,78 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 921.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 2/c copy.wav\""
+					"patching_rect" : [ 700.0, 921.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 1 Loop Gain 3 Filter 3 Routing 7.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.0, 889.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 1/3 copy 4.wav\""
+					"patching_rect" : [ 678.0, 889.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 6.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 657.0, 854.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 2/c copy.wav\""
+					"patching_rect" : [ 657.0, 854.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 8.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-53",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 636.0, 816.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 1/3 copy 4.wav\""
+					"patching_rect" : [ 636.0, 816.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 8.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 785.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 2/c copy.wav\""
+					"patching_rect" : [ 613.0, 785.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 2 Loop Gain 1 Filter 3 Routing 7.wav\""
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.0, 751.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 1/3 copy 4.wav\""
+					"patching_rect" : [ 592.0, 751.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 1 Loop Gain 2 Filter 3 Routing 8.wav\""
 				}
 
 			}
@@ -2387,13 +2384,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 5,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.0, 715.909090161323547, 55.0, 76.0 ],
-					"text" : "\"Programme Item 2/c copy.wav\""
+					"patching_rect" : [ 570.0, 715.909090161323547, 55.0, 183.0 ],
+					"text" : "\"Programme Item 2/Prog Item 2 Room 1 Absorption 1 RT 3 Loop Gain 1 Filter 3 Routing 7.wav\""
 				}
 
 			}
@@ -4682,6 +4679,7 @@
  ],
 		"parameters" : 		{
 			"obj-161::obj-1" : [ "vst~", "vst~", 0 ],
+			"obj-161::obj-7" : [ "vst~[1]", "vst~[1]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -4709,7 +4707,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AllRADecoder.maxsnap",
+				"name" : "AllRADecoder_20250513.maxsnap",
 				"bootpath" : "~/Development/GitHub/AmbiMuS/AmbiMuS-MaxMSP/data",
 				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
@@ -4832,6 +4830,13 @@
 				"bootpath" : "~/Development/GitHub/AmbiMuS/AmbiMuS-MaxMSP/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SceneRotator.maxsnap",
+				"bootpath" : "~/Development/GitHub/AmbiMuS/AmbiMuS-MaxMSP/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
  ],
