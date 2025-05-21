@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 909.0, 395.0, 640.0, 480.0 ],
+		"rect" : [ 391.0, 225.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 227.0, 293.0, 139.0, 22.0 ],
+					"text" : "r num_non_famil_stimuli"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 120.0, 74.0, 60.0 ],
+					"patching_rect" : [ 29.0, 120.0, 75.0, 60.0 ],
 					"text" : "Number of extractions to take from lists"
 				}
 
@@ -69,8 +81,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 106.0, 79.0, 22.0 ],
-					"text" : "r num_pages"
+					"patching_rect" : [ 126.0, 106.0, 137.0, 22.0 ],
+					"text" : "r num_non_famil_pages"
 				}
 
 			}
@@ -81,7 +93,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 211.0, 107.0, 22.0 ],
+					"patching_rect" : [ 268.0, 202.0, 107.0, 22.0 ],
 					"text" : "r stimuli_per_page"
 				}
 
@@ -134,12 +146,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
+					"linecount" : 63,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 185.0, 86.0, 22.0 ],
-					"text" : "b a"
+					"patching_rect" : [ 451.0, 197.0, 87.0, 853.0 ],
+					"text" : "\"Programme Item 2/AAES Room 3 Absorption 3 RT 1 Loop Gain 1 Filter 3 Routing 2 Prog Item 2.wav\" \"Programme Item 2/AAES Room 1 Absorption 1 RT 2 Loop Gain 4 Filter 1 Routing 4 Prog Item 2.wav\" \"Programme Item 2/AAES Room 3 Absorption 3 RT 3 Loop Gain 2 Filter 1 Routing 2 Prog Item 2.wav\" \"Programme Item 2/AAES Room 2 Absorption 1 RT 3 Loop Gain 1 Filter 2 Routing 2 Prog Item 2.wav\" \"Programme Item 2/AAES Room 2 Absorption 3 RT 2 Loop Gain 2 Filter 3 Routing 1 Prog Item 2.wav\" \"Programme Item 2/AAES Room 1 Absorption 3 RT 2 Loop Gain 3 Filter 1 Routing 4 Prog Item 2.wav\" \"Programme Item 2/AAES Room 3 Absorption 1 RT 2 Loop Gain 3 Filter 1 Routing 2 Prog Item 2.wav\""
 				}
 
 			}
@@ -151,7 +164,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 268.0, 247.0, 55.0, 22.0 ],
-					"text" : "zl slice 2"
+					"text" : "zl slice 7"
 				}
 
 			}
@@ -170,12 +183,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"linecount" : 56,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 185.0, 91.0, 22.0 ],
-					"text" : "0 3"
+					"patching_rect" : [ 29.0, 197.0, 92.0, 759.0 ],
+					"text" : "\"Programme Item 1/AAES Room 2 Absorption 3 RT 1 Loop Gain 4 Filter 1 Routing 1 Prog Item 1.wav\" \"Programme Item 1/AAES Room 2 Absorption 1 RT 3 Loop Gain 3 Filter 3 Routing 2 Prog Item 1.wav\" \"Programme Item 1/AAES Room 1 Absorption 3 RT 3 Loop Gain 3 Filter 2 Routing 4 Prog Item 1.wav\" \"Programme Item 1/AAES Room 2 Absorption 1 RT 2 Loop Gain 1 Filter 2 Routing 1 Prog Item 1.wav\" \"Programme Item 1/AAES Room 3 Absorption 3 RT 1 Loop Gain 4 Filter 1 Routing 1 Prog Item 1.wav\" \"Programme Item 1/AAES Room 3 Absorption 3 RT 1 Loop Gain 1 Filter 3 Routing 2 Prog Item 1.wav\" \"Programme Item 1/AAES Room 1 Absorption 1 RT 3 Loop Gain 4 Filter 2 Routing 1 Prog Item 1.wav\""
 				}
 
 			}
@@ -186,8 +200,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 246.0, 55.0, 22.0 ],
-					"text" : "zl slice 2"
+					"patching_rect" : [ 153.0, 247.0, 55.0, 22.0 ],
+					"text" : "zl slice 7"
 				}
 
 			}
@@ -198,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 216.0, 81.0, 75.0, 22.0 ],
+					"patching_rect" : [ 211.0, 81.0, 75.0, 22.0 ],
 					"text" : "list.scramble"
 				}
 
@@ -219,7 +233,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -231,7 +245,7 @@
 				"box" : 				{
 					"comment" : "List 2",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -244,12 +258,12 @@
 				"box" : 				{
 					"comment" : "List 1",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 31.0, 30.0, 30.0 ]
+					"patching_rect" : [ 211.0, 31.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -257,7 +271,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 225.5, 70.0, 114.5, 70.0 ],
+					"midpoints" : [ 220.5, 69.0, 114.5, 69.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -273,17 +287,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 125.0, 307.0, 204.5, 307.0 ],
-					"source" : [ "obj-10", 1 ]
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 114.5, 172.5, 38.5, 172.5 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 114.5, 172.5, 153.5, 172.5 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-34", 1 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -297,7 +310,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"midpoints" : [ 313.5, 283.0, 359.0, 283.0, 359.0, 174.0, 344.5, 174.0 ],
+					"midpoints" : [ 313.5, 283.0, 402.0, 283.0, 402.0, 180.0, 528.5, 180.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -313,7 +326,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 380.5, 240.0, 313.5, 240.0 ],
+					"midpoints" : [ 277.5, 240.0, 313.5, 240.0 ],
 					"order" : 0,
 					"source" : [ "obj-195", 0 ]
 				}
@@ -322,7 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-286", 1 ],
-					"midpoints" : [ 380.5, 239.0, 195.5, 239.0 ],
+					"midpoints" : [ 277.5, 239.0, 198.5, 239.0 ],
 					"order" : 1,
 					"source" : [ "obj-195", 0 ]
 				}
@@ -359,7 +372,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 159.5, 285.0, 252.5, 285.0, 252.5, 174.0, 277.5, 174.0 ],
+					"midpoints" : [ 162.5, 285.0, 252.5, 285.0, 252.5, 174.0, 460.5, 174.0 ],
 					"order" : 0,
 					"source" : [ "obj-286", 0 ]
 				}
@@ -368,7 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 159.5, 294.5, 204.5, 294.5 ],
+					"midpoints" : [ 162.5, 294.5, 204.5, 294.5 ],
 					"order" : 1,
 					"source" : [ "obj-286", 0 ]
 				}
@@ -377,7 +390,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 195.5, 276.0, 240.5, 276.0, 240.5, 174.0, 225.5, 174.0 ],
+					"midpoints" : [ 198.5, 276.0, 240.5, 276.0, 240.5, 174.0, 111.5, 174.0 ],
 					"source" : [ "obj-286", 1 ]
 				}
 
@@ -403,9 +416,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

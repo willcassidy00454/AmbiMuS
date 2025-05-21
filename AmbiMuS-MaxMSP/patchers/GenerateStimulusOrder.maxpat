@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 39.0, 150.0, 60.0 ],
+					"patching_rect" : [ 285.0, 39.0, 153.0, 60.0 ],
 					"text" : "Start with the familiarisation stimuli, then present the randomised ones"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 39.0, 30.0, 30.0 ]
+					"patching_rect" : [ 233.0, 39.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 106.0, 137.0, 22.0 ],
+					"patching_rect" : [ 44.0, 82.0, 137.0, 22.0 ],
 					"text" : "randomiseandinterleave"
 				}
 
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 44.0, 156.0, 45.0, 22.0 ],
+					"patching_rect" : [ 44.0, 137.0, 45.0, 22.0 ],
 					"text" : "list.join"
 				}
 
@@ -95,7 +95,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 208.0, 30.0, 30.0 ]
+					"patching_rect" : [ 44.0, 189.0, 30.0, 30.0 ]
 				}
 
 			}
